@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="./css/login.css">
     <title>FulbitoF5 Ingresar</title>
 </head>
+
+
+
 <body>
     <div class="login-box">
+        
         <div class="logo">
             <img src="./img/logo2.png" alt="">
         </div>
@@ -32,7 +36,7 @@
             <label for="submit">Entrar</label>
         </div>
         <div class="sign-up-link">
-            <p>No tenes cuenta? <a href="#">Registrarse</a></p>
+            <p>¿No tenes cuenta? <a href="registro.php">Registrarse</a></p>
         </div>
     </div>
 </body>
