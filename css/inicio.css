@@ -1,0 +1,55 @@
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 858px){
+
+    .checkbtn{
+        margin-top: 20px;
+        display: block;
+        padding-top: 5px;
+    }
+    ul{
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       background: #82898E; 
+       top: 80px;
+       left: -100%;
+       text-align: center;
+       transition: .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: #4B555D;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+        
+    }
+
+    
+}

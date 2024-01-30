@@ -5,13 +5,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
-    
+
 }
 
 .footerContainer{
     background-color: #1D1E1E;
     width: 100%;
     padding: 40px 30px 20px;
+
 }
 
 .socialIcon{
