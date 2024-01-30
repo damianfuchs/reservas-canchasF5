@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+.footerContainer{
+    background-color: #1D1E1E;
+    width: 100%;
+    padding: 40px 30px 20px;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcon a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.socialIcon a i{
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcon a:hover{
+    background-color: #303232;
+    transition: 0.5s;
+}
+
+.socialIcon a:hover i{
+    background-color: #303232;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 10px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerNav ul li a{
+    color: white;
+    
+    margin: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+    font-size: 12px;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
