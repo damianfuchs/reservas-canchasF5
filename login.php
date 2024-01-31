@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<form action="conexion_bd.php" method="post">
+<form action="bd/login_usuario.php" method="POST" class="formulario_login">
         
     <div class="login-box">
         

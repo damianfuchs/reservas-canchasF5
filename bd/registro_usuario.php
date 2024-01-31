@@ -11,10 +11,12 @@
     $contrasena = $_POST['contrasena'];
     $confirmar_contrasena = $_POST['confirmar_contrasena'];
 
+    //aca encriptamos la contrasena en la BD
+    $contrasena = hash('sha512', $contrasena);
+    $confirmar_contrasena = hash('sha512', $confirmar_contrasena);
+
     $query_registro = "INSERT INTO usuario(nombre, dni, numeroTelefono, contrasena, confirmarContrasena) 
-              VALUES('$nombre', '$dni', '$numero_telefono', '$contrasena', '$confirmar_contrasena')";
-
-
+    VALUES('$nombre', '$dni', '$numero_telefono', '$contrasena', '$confirmar_contrasena')";
 
 
     //VERIFICA QUE NO SE REPITAN LOS DATOS
