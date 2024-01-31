@@ -1,3 +1,13 @@
+<?php
+
+    session_start();
+    if (isset($_SESSION["dni"])){
+        header("location: inicio.php");
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

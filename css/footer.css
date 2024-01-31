@@ -10,10 +10,9 @@
 
 .footerContainer{
     background-color: #1D1E1E;
-    padding: 15px 30px 20px;
     width: 100%;
+    padding: 15px 30px 20px;
 }
-
 
 .socialIcon{
     display: flex;

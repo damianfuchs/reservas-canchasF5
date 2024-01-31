@@ -14,13 +14,14 @@
         <label for="check" class="checkbtn">
             <i class="fa-solid fa-bars"></i>
         </label>
-        <img src="../img/logo2.png" alt="">
+
+        <img src="./img/logo2.png" alt="">
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Reservar Cancha</a></li>
             <li><a href="#">Perfil</a></li>
             <li><a href="#">Informacion</a></li>
-            <li><a href="#">Cerrar Sesion</a></li>
+            <li><a href="./bd/cerrar_sesion.php">Cerrar Sesion</a></li>
         </ul>
     </nav>
 </body>
