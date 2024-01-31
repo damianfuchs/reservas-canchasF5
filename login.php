@@ -25,7 +25,7 @@
                 <input type="text" name="dni" class="input-field" placeholder="DNI" autocomplete="off" required >
             </div>
             <div class="input-box">
-                <input type="password" name="password" class="input-field" placeholder="Contraseña" autocomplete="off" required >
+                <input type="password" name="contrasena" class="input-field" placeholder="Contraseña" autocomplete="off" required >
             </div>
             <div class="forgot">
 

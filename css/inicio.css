@@ -3,6 +3,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 0px;
 }
 
 @media (max-width: 952px){

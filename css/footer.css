@@ -10,8 +10,8 @@
 
 .footerContainer{
     background-color: #1D1E1E;
-    width: 100%;
-    padding: 40px 30px 20px;
+    width: 90%;
+    padding: 15px 30px 20px;
 
 }
 
@@ -82,16 +82,4 @@
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
-}
-
-@media (max-width: 700px){
-    .footerNav ul{
-        flex-direction: column;
-    }
-
-    .footerNav ul li{
-        width: 100%;
-        text-align: center;
-        margin: 10px;
-    }
 }
