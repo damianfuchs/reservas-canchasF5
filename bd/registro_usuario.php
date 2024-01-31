@@ -15,6 +15,24 @@
               VALUES('$nombre', '$dni', '$numero_telefono', '$contrasena', '$confirmar_contrasena')";
 
 
+
+
+    //VERIFICA QUE NO SE REPITAN LOS DATOS
+    $verificar_dni = mysqli_query($conexion, "SELECT * FROM usuario WHERE dni = '$dni' ");
+
+    if(mysqli_num_rows($verificar_dni) > 0){
+        echo '
+            <script>
+                alert("Ya hay un Usuario registrado con ese DNI");
+                window.location = "../registro.php";
+            </script>
+        
+        ';
+        exit();
+    }
+
+    //--------------------------------------
+
     $ejecutar = mysqli_query($conexion, $query_registro);
 
     if($ejecutar){
